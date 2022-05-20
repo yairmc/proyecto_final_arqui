@@ -1,0 +1,36 @@
+.optionLogin {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.options {
+    background-color: var(--color-main);
+    width: 30rem;
+    padding: 4rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+    color: var(--color-white)
+}
+
+.option {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.option button {
+    width: 80%;
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: var(--color-button);
+    font-weight: bold;
+    cursor: pointer;
+}

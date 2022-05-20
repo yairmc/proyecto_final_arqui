@@ -1,0 +1,59 @@
+.login {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: var(--color-main);
+    border-radius: 2rem;
+    padding: 4rem;
+    color: var(--color-white);
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+
+.input label {
+    color: var(--color-white);
+}
+
+.input input {
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    outline: none;
+}
+
+.submit {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.submit input {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: var(--color-button);
+    font-weight: bold;
+    cursor: pointer;
+}
+.submit button{
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: var(--color-button);
+    font-weight: bold;
+    cursor: pointer;
+}
